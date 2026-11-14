@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Lynda Sadoudi — Dev × Growth">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#c026d3"/></linearGradient>
+    <linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4f46e5" stop-opacity="0.28"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#e9eaf3" stroke-width="1"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <rect width="1200" height="300" fill="#f7f7fb"/>
+    <rect width="1200" height="300" fill="url(#grid)" opacity="0.7"/>
+    <circle cx="160" cy="40" r="140" fill="#c7d2fe" opacity="0.9" filter="url(#blur)"/>
+    <circle cx="1060" cy="250" r="150" fill="#f5d0fe" opacity="0.9" filter="url(#blur)"/>
+    <text x="64" y="76" font-size="14" font-weight="800" letter-spacing="4" fill="#4f46e5">DEV × GROWTH · DATA · AUTOMATION</text>
+    <text x="62" y="138" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#0f172a">Lynda Sadoudi</text>
+    <text x="64" y="184" font-size="22" fill="#475569">I build the tools that make <tspan fill="#4f46e5" font-style="italic" font-family="Georgia, 'Times New Roman', serif" font-size="25">marketing measurable.</tspan></text>
+    <g transform="translate(64,226)"><rect width="164" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="82" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">React · TypeScript</text></g><g transform="translate(236,226)"><rect width="42" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="21" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">SEO</text></g><g transform="translate(286,226)"><rect width="156" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="78" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">CRO &amp; A/B testing</text></g><g transform="translate(450,226)"><rect width="50" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="25" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">Data</text></g><g transform="translate(508,226)"><rect width="99" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="50" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">Automation</text></g><g transform="translate(615,226)"><rect width="58" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0"/><text x="29" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">UX/UI</text></g>
+    <path d="M820,228 L870,214 L920,220 L970,188 L1020,196 L1070,150 L1120,120 L1120,250 L820,250 Z" fill="url(#area)"/>
+    <path d="M820,228 L870,214 L920,220 L970,188 L1020,196 L1070,150 L1120,120" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="820" cy="228" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/><circle cx="870" cy="214" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/><circle cx="920" cy="220" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/><circle cx="970" cy="188" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/><circle cx="1020" cy="196" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/><circle cx="1070" cy="150" r="4" fill="#f7f7fb" stroke="#4f46e5" stroke-width="2.5"/>
+    <circle cx="1120" cy="120" r="7" fill="#c026d3"/>
+    <circle cx="1120" cy="120" r="14" fill="#c026d3" opacity="0.25"/>
+    <g transform="translate(1036,66)"><rect width="104" height="34" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="52" y="22" text-anchor="middle" font-size="14" font-weight="800" fill="#c026d3">p &lt; 0.05 ✓</text></g>
+  </g>
+</svg>
